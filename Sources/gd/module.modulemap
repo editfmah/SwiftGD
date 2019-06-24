@@ -1,4 +1,4 @@
-module gd {
-	umbrella header "gd.h"
-	link "gd"
+module gd [system] {
+    header "/usr/include/gd.h"
+    export *
 }
